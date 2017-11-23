@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 # 第三方 SMTP 服务
 mail_host="mail.sogou-inc.com"  #设置服务器
-mail_user="xxxx"    #用户名
+mail_user="xxxxxx"    #用户名
 mail_pass="xxxx"   #口令 
 
 def SendMail(From, To ,Title ,mail_msg):
